@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <title>Preencha os Campos do Formulário</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+
+        h2{
+            text-align: center;
+        }
+
+        label{
+            font-weight: bolder;
+        }
+
+        div{
+            padding-bottom: 1%;
+            border: outset;
+            border-top: hidden;
+            border-left: hidden;
+            border-right: hidden;
+        }
+
+        .center{
+            border: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        td, th, table{
+            border: 1px solid gray;
+        }
+    </style>
+    <body>
+        <h2 style="color: red;">Preencha os Campos do Formulário</h2>
+
+        <div>
+          <label for="frute"> Qual sua fruta predileta?</label>
+          <input type="text" name="fruta" id="fruta">
+          <label for="pas"> Cadastre sua senha</label>
+          <input type="password" name="pas" id="pas">
+        </div>
+
+        <div>
+          <h2 style="color: purple;">Escolha seu Animal Favorito</h2>
+          <br>
+
+          <div class="center">
+            <input type="radio" name="animal" id="tig"><b>Tigre</b>
+
+            <input type="radio" name="animal" id="tig"><b>Tigre</b>
+
+            <input type="radio" name="animal" id="tig"><b>Tigre</b>
+
+            <input type="radio" name="animal" id="tig"><b>Tigre</b>
+
+            <input type="radio" name="animal" id="tig"><b>Tigre</b>
+          </div>
+        </div>
+        
+        <div>
+          <h2 style="color: green;">Escolha seua (s) bebida(s)</h2>
+          <br>
+
+          <div class="center">
+            <input type="checkbox" name="drink" id="h20"><b>Água</b>
+
+            <input type="checkbox" name="drink" id="suc"><b>Sucos</b>
+
+            <input type="checkbox" name="drink" id="ref"><b>Refrigerante</b>
+
+            <input type="checkbox" name="drink" id="ton"><b>Tônica</b>
+
+            <input type="checkbox" name="drink" id="alc"><b>Alcoólicas</b>
+          </div>
+        </div>
+
+        <br>
+
+        <label for="cor" style="color:red;">Escolha sua cor Preferida</label>
+        <select name="cor" id="cor">
+          <option value="Azul">Azul</option>
+          <option value="Vermelho">Vermelho</option>
+          <option value="Roxo">Roxo</option>
+          <option value="Rosa">Rosa</option>
+          <option value="Preto">Preto</option>
+          <option value="Laranja">Laranja</option>
+        </select>
+
+        <div class="center">
+          <table>
+            <tbody>
+              <tr>
+                <th>Loja</th>
+                <th>Produto</th>
+                <th>Marca</th>
+              </tr>
+              <tr>
+                <th>Saraiva</th>
+                <th>Celular</th>
+                <th>Samsung</th>
+              </tr>
+              <tr>
+                <th>Netuno</th>
+                <th>Mouse</th>
+                <th>Microsoft</th>
+              </tr>
+              <tr>
+                <th>Kabum</th>
+                <th>DVD</th>
+                <th>Leonardo</th>
+              </tr>
+              <tr>
+                <th>Boticário</th>
+                <th>Perfume</th>
+                <th>Quasar</th>
+              </tr>
+              <tr>
+                <th>Summer</th>
+                <th>Calça</th>
+                <th>Levis</th>
+              </tr>
+              <tr>
+                <th>Hering</th>
+                <th>Camiseta</th>
+                <th>Hering</th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    </body>
+</html>
